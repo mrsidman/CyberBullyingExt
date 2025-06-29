@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: ext
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+          auth: 'true'
+    host: smtp.gmail.com
+    username: srivastavasiddhanth7@gmail.com
+    password: bkzt yxqg rhxl hrgd
+    port: '587'
+    data:
+      mongodb:
+        host: localhost
+        port: 27017
+        database: cyberbullying
